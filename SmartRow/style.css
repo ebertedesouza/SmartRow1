@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6c42f5; /* Roxo */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header img {
+    height: 40px;
+    vertical-align: middle;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .restaurant-options {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #6c42f5; /* Roxo */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos específicos da tela inicial */
+  .search-section {
+    background-color: #94f542; /* Verde */
+    padding: 20px;
+  }
+  
+  .recommendations-section,
+  .highlights-section,
+  .filter-section,
+  .results-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  /* Estilos específicos da página de opções de restaurantes */
+  .restaurant-options h2 {
+    margin-top: 0;
+  }
+  
+  /* Estilos do botão "Fazer Reservas" */
+  .custom-button {
+    background-color: #6c42f5; /* Roxo */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
